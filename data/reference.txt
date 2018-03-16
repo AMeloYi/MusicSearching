@@ -1,0 +1,13 @@
+
+La base de donnees sont recepere de :
+
+.\CRIM    : Sont les fichier en format de "MEI" recuperes du projet CRIM.
+            Les liens sont dans le fichier <MEI_DB_File_Links.pdf>.
+            Le lien du pdf : https://docs.google.com/spreadsheets/d/1mcPvF_onDtOZIBv_jmc07nbRJSr5BxywgSz0VSs4joc/edit#gid=0
+
+.\Josquin : Sont recuperes du "The Josquin Research Project".
+            Les liens sont comme : http://josquin.stanford.edu/
+              - Choisir "Composers" et "Genres", ensuite cliquer "Browse"
+              - Choisir la piece qui vous interese et Cliquer leur nom
+              - Il y a des imitations dans le menu gauche bas des outils d'analyse
+              - En bas, dans la partie "Download", on peut recuperer en differents formats
