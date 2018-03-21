@@ -1,5 +1,8 @@
 import unittest
-import MusicSearching as ms
+import FileOperator
+import Seperator
+import Translator
+import DistanceCalculator
 import os
 from music21 import *
 
@@ -10,7 +13,7 @@ class TestFileOperator(unittest.TestCase):
 
     def test_ReadFile(self):
         print('Testing ReadFile() ... ')
-        fo = ms.FileOperator()
+        fo = FileOperator.FileOperator()
         file1 = ABSPATH + r'\data\CRIM\mei\CRIM_Mass_0002_Gloria.mei'
         self.assertTrue((fo.ReadFile(file1)!=None))
         file2 = 'ddd'
@@ -23,7 +26,7 @@ class TestFileOperator(unittest.TestCase):
 
     def test_ReadFileXML(self):
         print('Testing ReadFileXML() ... ')
-        fo = ms.FileOperator()
+        fo = FileOperator.FileOperator()
         file1 = 'not_exist.xml'
         self.assertTrue((fo.ReadFileXML(file1)==None))
         file2 = ABSPATH + r'\data\JosquinResearchProject\Josquin\xml\Masses\Jos0301.xml'
@@ -31,7 +34,7 @@ class TestFileOperator(unittest.TestCase):
 
     def test_ReadFileMEI(self):
         print('Testing ReadFileMEI() ... ')
-        fo = ms.FileOperator()
+        fo = FileOperator.FileOperator()
         file1 = ABSPATH + r'\data\CRIM\mei\not_exist.mei'
         self.assertTrue((fo.ReadFileXML(file1)==None))
         file2 = ABSPATH + r'\data\CRIM\mei\CRIM_Mass_0002_Gloria.mei'
@@ -39,7 +42,7 @@ class TestFileOperator(unittest.TestCase):
 
     def test_SaveNoteList(self):
         print('Testing SaveNoteList() ... ')
-        fo = ms.FileOperator()
+        fo = FileOperator.FileOperator()
         filename = ABSPATH + r'\tmp\tmp_test.csv'
         fo.SaveNoteList('test', ['a', 'b', 'c', 'd'])
         self.assertTrue(os.path.exists(filename))
@@ -57,7 +60,7 @@ class TestFileOperator(unittest.TestCase):
 
     def test_InitFiles(self):
         print('Testing InitFiles() ... ')
-        fo = ms.FileOperator()
+        fo = FileOperator.FileOperator()
         file1 = ABSPATH + r'\tmp\tmp1.txt'
         file2 = ABSPATH + r'\tmp\tmp2.txt'
         file3 = ABSPATH + r'\tmp\tmp3.txt'
