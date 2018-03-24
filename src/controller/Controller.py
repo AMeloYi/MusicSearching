@@ -1,9 +1,9 @@
 import os
 import shutil
 
-import DistanceCalculator
-import FileOperator
-import Translator
+from src.operator import DistanceCalculator
+from src.operator import FileOperator
+from src.operator import Translator
 
 from src.operator import Seperator
 
