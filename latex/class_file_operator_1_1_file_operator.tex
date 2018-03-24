@@ -1,0 +1,112 @@
+\hypertarget{class_file_operator_1_1_file_operator}{}\section{File\+Operator.\+File\+Operator Class Reference}
+\label{class_file_operator_1_1_file_operator}\index{File\+Operator.\+File\+Operator@{File\+Operator.\+File\+Operator}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_file_operator_1_1_file_operator_af3e38c65dc3e7c81462b0aea788837b5}{Read\+File}} (self, filename)
+\item 
+def \mbox{\hyperlink{class_file_operator_1_1_file_operator_a9b2a851469c6c2398bdf94e0298a76ad}{Read\+File\+X\+ML}} (self, filename)
+\item 
+def \mbox{\hyperlink{class_file_operator_1_1_file_operator_aa89d861e179ddaea8d9e020e6b14d23e}{Read\+File\+M\+EI}} (self, filename)
+\item 
+def \mbox{\hyperlink{class_file_operator_1_1_file_operator_a7dbbfd470da774ca20346a568bf88a66}{Save\+Note\+List}} (self, filename, list)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Operators with files
+
+aaaaaaa
+
+Functions:
+    ReadFile: Read music file and return a stream of music21
+    ReadFileXML: Read music file 'xml' and return a stream of music21
+    ReadFileMEI: Read music file 'mei' and return a stream of music21
+    SaveNoteList: Save the list of nodes into file
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_file_operator_1_1_file_operator_af3e38c65dc3e7c81462b0aea788837b5}\label{class_file_operator_1_1_file_operator_af3e38c65dc3e7c81462b0aea788837b5}} 
+\index{File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}!Read\+File@{Read\+File}}
+\index{Read\+File@{Read\+File}!File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}}
+\subsubsection{\texorpdfstring{Read\+File()}{ReadFile()}}
+{\footnotesize\ttfamily def File\+Operator.\+File\+Operator.\+Read\+File (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Read music file and return a stream of music21
+
+This function can read the text file which representes the music and return
+a stream (type of music21). It will judge the format of the file and call
+ReadFileXML or ReadFileMEI according to the format.
+
+Args:
+    filename: full path of the file in format 'xml', 'mxl' or 'mei'
+
+Returns:
+    A stream of music21 (music21.stream) which contains all the musical
+    elements in the file. If the file cannot be opened, the function will
+    return None and print the error information in the console.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_file_operator_1_1_file_operator_aa89d861e179ddaea8d9e020e6b14d23e}\label{class_file_operator_1_1_file_operator_aa89d861e179ddaea8d9e020e6b14d23e}} 
+\index{File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}!Read\+File\+M\+EI@{Read\+File\+M\+EI}}
+\index{Read\+File\+M\+EI@{Read\+File\+M\+EI}!File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}}
+\subsubsection{\texorpdfstring{Read\+File\+M\+E\+I()}{ReadFileMEI()}}
+{\footnotesize\ttfamily def File\+Operator.\+File\+Operator.\+Read\+File\+M\+EI (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Read music file 'mei' and return a stream of music21
+
+This function can read the text file in format 'mei' which representes
+the music and return a stream (type of music21).
+
+Args:
+    filename: full path of the file in format 'mei'
+
+Returns:
+    A stream of music21 (music21.stream) which contains all the musical
+    elements in the file. If the file doesn't exist, the function will
+    return None.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_file_operator_1_1_file_operator_a9b2a851469c6c2398bdf94e0298a76ad}\label{class_file_operator_1_1_file_operator_a9b2a851469c6c2398bdf94e0298a76ad}} 
+\index{File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}!Read\+File\+X\+ML@{Read\+File\+X\+ML}}
+\index{Read\+File\+X\+ML@{Read\+File\+X\+ML}!File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}}
+\subsubsection{\texorpdfstring{Read\+File\+X\+M\+L()}{ReadFileXML()}}
+{\footnotesize\ttfamily def File\+Operator.\+File\+Operator.\+Read\+File\+X\+ML (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Read music file 'xml' and return a stream of music21
+
+This function can read the text file in format 'xml' or 'mxl' which
+representes the music and return a stream (type of music21).
+
+Args:
+    filename: full path of the file in format 'xml' or 'mxl'
+
+Returns:
+    A stream of music21 (music21.stream) which contains all the musical
+    elements in the file. If the file doesn't exist, the function will
+    return None.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_file_operator_1_1_file_operator_a7dbbfd470da774ca20346a568bf88a66}\label{class_file_operator_1_1_file_operator_a7dbbfd470da774ca20346a568bf88a66}} 
+\index{File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}!Save\+Note\+List@{Save\+Note\+List}}
+\index{Save\+Note\+List@{Save\+Note\+List}!File\+Operator\+::\+File\+Operator@{File\+Operator\+::\+File\+Operator}}
+\subsubsection{\texorpdfstring{Save\+Note\+List()}{SaveNoteList()}}
+{\footnotesize\ttfamily def File\+Operator.\+File\+Operator.\+Save\+Note\+List (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename,  }\item[{}]{list }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Save the list of nodes into file
+
+This function can save the list of nodes into file. Each line representes
+a node. The information of each line is (voix,gamme,valeur,duree). Between
+two parameters exists a ',' and there is no space.
+
+Args:
+    filename: full path of the file where user wants to save the notes
+    list: a list of nodes (in format Node)
+
+Returns:
+    There is no return in this function. The file will append the nodes
+    everytime. If the file does not exist, it will create the file.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+File\+Operator.\+py\end{DoxyCompactItemize}
