@@ -26,8 +26,10 @@ class FileOperator:
             elements in the file. If the file cannot be opened, the function will
             return None and print the error information in the console.
         '''
+        # if the filepath exists
         if os.path.exists(filename):
-            fileType = filename[-4:]
+            # get the file type
+            fileType = os.path.splitext(filename)[1]
             if (fileType == '.xml') | (fileType == '.mxl'):
                 return self.ReadFileXML(filename)
             elif fileType == '.mei':
@@ -35,7 +37,9 @@ class FileOperator:
             else:
                 print('Can not open file ' + filename)
                 return None
+        # if the filepath does not exist
         else:
+            # try to verify that if the file is in corpus
             try:
                 f = corpus.parse(filename)
             except CorpusException:

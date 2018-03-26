@@ -1,0 +1,137 @@
+Result 
+Distance = 1
+Correspondance 
+
+1 5 0 4 
+= = o = 
+1 5 2 4 
+
+Result 
+Distance = 0
+Correspondance 
+
+1 5 2 4 
+= = = = 
+1 5 2 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+1 5 4 4 
+= = o = 
+1 5 2 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 5 3 
+= = o o 
+1 5 2 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1   5   4   0.5 
+=   =   o   o   
+1   5   2   4   
+
+Result 
+Distance = 2
+Correspondance 
+
+1   5   5   0.5 
+=   =   o   o   
+1   5   2   4   
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 4 1 
+= = o o 
+1 5 2 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+1 5 2 1 
+= = = o 
+1 5 2 4 
+
+Result 
+Distance = 0
+Correspondance 
+
+1 5 2 4 
+= = = = 
+1 5 2 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 1 2 
+= = o o 
+1 5 2 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+1 5 2 6 
+= = = o 
+1 5 2 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1  4  10 4  
+=  o  o  =  
+1  5  2  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 2 
+= o o o 
+1 5 2 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 6 
+= o o o 
+1 5 2 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 1 
+= o o o 
+1 5 2 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  10 1  
+=  o  o  o  
+1  5  2  4  
+
+Result 
+Distance = 1
+Correspondance 
+
+1 5 0 4 
+= = o = 
+1 5 2 4 
+
+

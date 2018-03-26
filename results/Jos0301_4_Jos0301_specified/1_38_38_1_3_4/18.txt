@@ -1,0 +1,33 @@
+Result 
+Distance = 1
+Correspondance 
+
+1  4  7  12 
+=  =  =  o  
+1  4  7  2  
+
+Result 
+Distance = 3
+Correspondance 
+
+1  -1 -1 12 
+=  o  o  o  
+1  4  7  2  
+
+Result 
+Distance = 3
+Correspondance 
+
+1  -1 -1 12 
+=  o  o  o  
+1  4  7  2  
+
+Result 
+Distance = 3
+Correspondance 
+
+1  -1 -1 12 
+=  o  o  o  
+1  4  7  2  
+
+

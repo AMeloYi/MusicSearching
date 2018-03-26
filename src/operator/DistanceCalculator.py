@@ -26,5 +26,4 @@ class DistanceCalculator:
             choosed by user.
         '''
         param = '-sequences ' + target + ' ' + ref + ' -method ' + method + ' -result ' + result + ' -type numeric -parser csv'
-        print(param)
         win32api.ShellExecute(0, 'open', '..\\ref\\MatchingToolBox.exe', param, '', 0)

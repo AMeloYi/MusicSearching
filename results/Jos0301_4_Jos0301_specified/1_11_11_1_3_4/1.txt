@@ -1,0 +1,169 @@
+Result 
+Distance = 3
+Correspondance 
+
+1 4 5 8 
+= o o o 
+1 5 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1  4  10 4  
+=  o  o  =  
+1  5  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 2 
+= o o o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  10 3  
+=  o  o  o  
+1  5  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 0 1 
+= = o o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 2 
+= o o o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 2 
+= o o o 
+1 5 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 2 2 
+= = o o 
+1 5 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+1 5 3 4 
+= = o = 
+1 5 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 2 3 
+= = o o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  10 1  
+=  o  o  o  
+1  5  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 0 1 
+= = o o 
+1 5 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 5 2 1 
+= = o o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  10 2  
+=  o  o  o  
+1  5  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  10 1  
+=  o  o  o  
+1  5  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 1 
+= o o o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 3 
+= o o o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  10 1  
+=  o  o  o  
+1  5  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 3 
+= o o o 
+1 5 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 4 4 1 
+= o = o 
+1 5 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 6 2 
+= o o o 
+1 5 4 4 
+
+

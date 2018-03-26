@@ -26,13 +26,16 @@ class Translator:
             A note in format Note.
         '''
         duration = n.duration.quarterLength
+        # if the note is a rest
         if n.isRest:
             return Note.Note(voix, -1, -1, duration)
+        # if the note has different pitches
         elif n.isChord:
             if n.pitches:
-                return Note.Note(voix, n.pitches[0].midi // 12, n.pitches[0].midi % 12, duration)
+                return Note.Note(voix, n.octave, n.pitches[0].midi % 12, duration)
+        # if the note is a normal note
         else:
-            return Note.Note(voix, n.pitch.midi // 12, n.pitch.midi % 12, duration)
+            return Note.Note(voix, n.octave, n.pitch.midi % 12, duration)
 
     def TranslateToNoteList(self, inputList, voix):
         '''Translate a list of notes(in music21.stream) into a list of Notes(format
@@ -47,7 +50,7 @@ class Translator:
             voix: The part in which exists the notes
 
         Returns:
-            A list of notes in format Note.
+            A list of notes in format music21.Note.
         '''
         noteList = []
         for n in inputList:

@@ -14,6 +14,7 @@ if __name__ == '__main__':
         print('4.Calculate the distance between file and morceau ')
         print('5.Calculate the distances within one music ')
         print('6.Calculate the distances between two files ')
+        print('7.Analyse the results in a folder ')
         print('0.Exit')
         command = input('Please choose your fuction : ')
         print('you have choosed :', command)
@@ -25,26 +26,22 @@ if __name__ == '__main__':
             measureList = []
             for e in mString:
                 measureList.append(int(e))
-            destFile = input('Please input dest file name : ')
-            ctl.PreprocessSpecifiedMusicFile(srcFile, voix, measureList, destFile)
+            ctl.PreprocessSpecifiedMusicFile(srcFile, voix, measureList)
             print('Morceau created!')
         elif command == '2':
             srcFile = input('Please input src file path : ')
-            destFile = input('Please input dest file name : ')
-            ctl.PreprocessWholeMusicFile(srcFile, destFile)
+            ctl.PreprocessWholeMusicFile(srcFile)
             print('Whole Morceau created!')
         elif command == '3':
             srcFile = input('Please input src file path : ')
-            destFolder = input('Please input the dest floder : ')
             N = int(input('Please input nb of measures you want to group up : '))
-            ctl.PreprocessMusicFile(srcFile, destFolder, N)
+            ctl.PreprocessMusicFile(srcFile, N)
             print('File analysed!')
         elif command == '4':
             targetFolder = input('Please input the target folder : ')
             refFolder = input('Please input the ref folder : ')
-            resFolder = input('Please input the res folder name : ')
             method = input('Please input the method : ')
-            ctl.CalculateDistanceBetweenTwoFolders(targetFolder, refFolder, resFolder, method)
+            ctl.CalculateDistanceBetweenTwoFolders(targetFolder, refFolder, method)
             print('Distance calculated!')
         elif command == '5':
             srcFile = input('Please input src file path : ')

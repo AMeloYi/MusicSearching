@@ -1,0 +1,3577 @@
+Result 
+Distance = 4
+Correspondance 
+
+1  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 6 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 2  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 6 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 8 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 6 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 2  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 2  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 8 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 4 3 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 2 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 8 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 6 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 2 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 2 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 8 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 6 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 5 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  -1 -1 2  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 6 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 2 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  -1 -1 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+1 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1  4  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 2 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 5 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 5 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1  4  11 2  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 5 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 2 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 5 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 7 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 2 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 5 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 5 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+1 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 2 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 2 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+1 4 0 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+1 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 6 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2  3  11 4  
+o  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 6 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 7 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 5 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 4 2 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 9 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 8 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 6 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2  3  11 2  
+o  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2  3  11 4  
+o  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 9 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2  3  11 2  
+o  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 7 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 6 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 7 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 5 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 4 8 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 5 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 5 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 2 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2  3  11 8  
+o  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 7 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 5 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 1 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 5 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 1 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2  3  11 4  
+o  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 5 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 5 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 4 4 4 
+o o = = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 2  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 2 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 2 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2  3  11 4  
+o  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 2 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2  3  11 4  
+o  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 2 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 0 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 2 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 4 4 8 
+o o = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2  -1 -1 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 7 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 6 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2  3  11 2  
+o  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+2 4 0 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 5 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 7 6 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 5 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 4 1 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 2 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+2 3 4 4 
+o = = = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 5 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 7 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 9 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2 3 9 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+2  3  11 4  
+o  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2 3 9 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 0 6 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 2 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 4 0 4 
+= o o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3  3  11 4  
+=  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 4 0 4 
+= o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 0 2 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3  3  11 2  
+=  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 8 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 4 0 4 
+= o o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3  3  11 4  
+=  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 4 2 4 
+= o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 4 0 4 
+= o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3  3  11 8  
+=  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 0 8 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 0 8 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3  3  11 8  
+=  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 6 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 7 1 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 5 1 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 4 3 
+= = = o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 5 1 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 7 2 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 2 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 2 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 8 1 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 6 1 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 8 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 7 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 7 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  -1 -1 8  
+=  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 7 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 5 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3  -1 -1 4  
+=  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 7 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 4 0 4 
+= o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3  3  11 8  
+=  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 0 8 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 2 6 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 0 2 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 7 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3  3  11 4  
+=  =  o  =  
+3  3  4  4  
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 9 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+3 4 0 6 
+= o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3  3  11 2  
+=  =  o  o  
+3  3  4  4  
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 7 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 5 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 9 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 7 4 
+= = o = 
+3 3 4 4 
+
+Result 
+Distance = 0
+Correspondance 
+
+3 3 4 4 
+= = = = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+3 3 5 8 
+= = o o 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+3 3 4 8 
+= = = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 0 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  2  11 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+4 3 4 4 
+o = = = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 5 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 9 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 9 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 5 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 4 8 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4  -1 -1 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  2  11 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  2  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 4 2 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 5 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 7 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 9 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 9 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 8 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 6 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 8 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 9 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 2 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4  2  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 0 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+4 3 4 4 
+o = = = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 3 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  2  11 1  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 1 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 2 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 5 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 5 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 4 1 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 2 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4  3  4  16 
+o  =  =  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  2  11 16 
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 2 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4  2  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 4 8 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 2 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4  2  11 4  
+o  o  o  =  
+3  3  4  4  
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 4 8 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 5 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 4 8 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 4 6 
+o = = o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 0 1 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4  2  11 8  
+o  o  o  o  
+3  3  4  4  
+
+Result 
+Distance = 3
+Correspondance 
+
+4 2 9 4 
+o o o = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 2 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 1
+Correspondance 
+
+4 3 4 4 
+o = = = 
+3 3 4 4 
+
+Result 
+Distance = 2
+Correspondance 
+
+4 3 0 4 
+o = o = 
+3 3 4 4 
+
+Result 
+Distance = 3
+Correspondance 
+
+4 3 2 8 
+o = o o 
+3 3 4 4 
+
+Result 
+Distance = 4
+Correspondance 
+
+4 2 9 8 
+o o o o 
+3 3 4 4 
+
+

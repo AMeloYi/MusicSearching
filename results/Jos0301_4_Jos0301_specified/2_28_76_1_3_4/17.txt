@@ -1,0 +1,49 @@
+Result 
+Distance = 3
+Correspondance 
+
+2  4  0  8  
+o  =  o  o  
+1  4  10 4  
+
+Result 
+Distance = 3
+Correspondance 
+
+2  4  2  8  
+o  =  o  o  
+1  4  10 4  
+
+Result 
+Distance = 2
+Correspondance 
+
+2  4  2  4  
+o  =  o  =  
+1  4  10 4  
+
+Result 
+Distance = 2
+Correspondance 
+
+2  4  5  4  
+o  =  o  =  
+1  4  10 4  
+
+Result 
+Distance = 2
+Correspondance 
+
+2  4  5  4  
+o  =  o  =  
+1  4  10 4  
+
+Result 
+Distance = 2
+Correspondance 
+
+2  4  2  4  
+o  =  o  =  
+1  4  10 4  
+
+

@@ -1,7 +1,12 @@
 import os
 import unittest
+import music21
+from src.operator import FileOperator
+from src.operator import DistanceCalculator
+from src.operator import Seperator
+from src.operator import Translator
+from src.model import Note
 
-import FileOperator
 
 ABSPATH = os.path.abspath('.')
 
@@ -39,41 +44,104 @@ class TestFileOperator(unittest.TestCase):
     def test_SaveNoteList(self):
         print('Testing SaveNoteList() ... ')
         fo = FileOperator.FileOperator()
-        filename = ABSPATH + r'\tmp\tmp_test.csv'
-        fo.SaveNoteList('test', ['a', 'b', 'c', 'd'])
+        note1 = Note.Note(1,2,3,4)
+        note2 = Note.Note(4,3,2,1)
+        noteList = [note1, note2]
+        filename = ABSPATH + r'\tmpData\test\test.csv'
+        fo.SaveNoteList(filename, noteList)
         self.assertTrue(os.path.exists(filename))
+        lineList = []
         if(os.path.exists(filename)):
             f = open(filename, 'r')
-            string = f.read()
+            for line in f.readlines():
+                lineList.append(line.strip('\n'))
             f.close()
             os.remove(filename)
-            self.assertEqual(len(string), 5)
-            self.assertEqual(string[0], 'a')
-            self.assertEqual(string[1], 'b')
-            self.assertEqual(string[2], 'c')
-            self.assertEqual(string[3], 'd')
+            string1 = lineList[0].split(',')
+            self.assertEqual(len(string1), 4)
+            self.assertEqual(string1[0], '1')
+            self.assertEqual(string1[1], '2')
+            self.assertEqual(string1[2], '3')
+            self.assertEqual(string1[3], '4')
+            string2 = lineList[1].split(',')
+            self.assertEqual(len(string2), 4)
+            self.assertEqual(string2[0], '4')
+            self.assertEqual(string2[1], '3')
+            self.assertEqual(string2[2], '2')
+            self.assertEqual(string2[3], '1')
 
 class TestSeperator(unittest.TestCase):
+
     def test_SeperateByPart(self):
-        # TODO
-        return 0
+        print('Testing SeperateByPart() ... ')
+        filename = r'D:\PROJECTS\PRD\PRD\data\JosquinResearchProject\Josquin\xml\Masses\Jos0301.xml'
+        f = music21.converter.parse(filename)
+        sp = Seperator.Seperator()
+        length, parts = sp.SeperateByPart(f)
+        # parts[0].show()
+        self.assertEqual(length, 4)
 
     def test_SeperateByMeasure(self):
-        # TODO
-        return 0
+        print('Testing SeperateByMeasure() ... ')
+        filename = r'D:\PROJECTS\PRD\PRD\data\JosquinResearchProject\Josquin\xml\Masses\Jos0301.xml'
+        f = music21.converter.parse(filename)
+        sp = Seperator.Seperator()
+        stream = f.parts[0]
+        length, measureList = sp.SeperateByMeasure(stream)
+        self.assertEqual(length, 51)
+        self.assertEqual(measureList[0][0].name, 'rest')
+        self.assertEqual(measureList[1][3].name, 'D')
+        self.assertEqual(measureList[7][3].name, 'F')
 
     def test_SeperateByNMeasure(self):
-        # TODO
-        return 0
+        print('Testing SeperateByNMeasure() ... ')
+        filename = r'D:\PROJECTS\PRD\PRD\data\JosquinResearchProject\Josquin\xml\Masses\Jos0301.xml'
+        f = music21.converter.parse(filename)
+        sp = Seperator.Seperator()
+        stream = f.parts[0]
+        length, measureList = sp.SeperateByNMeasure(stream, 4)
+        self.assertEqual(length, 48)
+        self.assertEqual(measureList[0][0].name, 'rest')
+        self.assertEqual(measureList[1][8].name, 'D')
+        self.assertEqual(measureList[7][10].name, 'D')
+
+    def test_SeperateByMorceau(self):
+        print('Testing SeperateByMorceau() ... ')
+        filename = r'D:\PROJECTS\PRD\PRD\data\JosquinResearchProject\Josquin\xml\Masses\Jos0301.xml'
+        f = music21.converter.parse(filename)
+        sp = Seperator.Seperator()
+        morceau = sp.SeperateByMorceau(f, 2, [3,4,5,6])
+        self.assertEqual(len(morceau), 21)
+        self.assertEqual(morceau[0].name, 'C')
+        self.assertEqual(morceau[3].name, 'D')
+        self.assertEqual(morceau[10].name, 'C')
 
 class TestTranslator(unittest.TestCase):
     def test_TranslateToNote(self):
-        # TODO
-        return 0
+        tl = Translator.Translator()
+        note1 = music21.note.Note('C4')
+        note2 = music21.note.Note('F5')
+        n1 = tl.TranslateToNote(note1, 1)
+        n2 = tl.TranslateToNote(note2, 1)
+        self.assertEqual(n1.valeur, 0)
+        self.assertEqual(n1.duree, 1.0)
+        self.assertEqual(n1.gamme, 4)
+        self.assertEqual(n2.valeur, 5)
+        self.assertEqual(n2.gamme, 5)
 
     def test_TranslateToNoteList(self):
-        # TODO
-        return 0
+        tl = Translator.Translator()
+        note1 = music21.note.Note('C4')
+        note2 = music21.note.Note('F5')
+        note3 = music21.note.Note('D#4')
+        noteList = [note1, note2, note3]
+        nList = tl.TranslateToNoteList(noteList, 1)
+        self.assertEqual(nList[0].valeur, 0)
+        self.assertEqual(nList[0].gamme, 4)
+        self.assertEqual(nList[1].valeur, 5)
+        self.assertEqual(nList[1].gamme, 5)
+        self.assertEqual(nList[2].valeur, 3)
+        self.assertEqual(nList[2].gamme, 4)
 
 class TestDistanceCalculator(unittest.TestCase):
     def test_Distance(self):

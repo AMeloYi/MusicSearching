@@ -1,0 +1,41 @@
+Result 
+Distance = 2
+Correspondance 
+
+1   5   2   8   
+=   =   o   o   
+1   5   5   0.5 
+
+Result 
+Distance = 2
+Correspondance 
+
+1   5   2   8   
+=   =   o   o   
+1   5   5   0.5 
+
+Result 
+Distance = 2
+Correspondance 
+
+1   5   3   8   
+=   =   o   o   
+1   5   5   0.5 
+
+Result 
+Distance = 2
+Correspondance 
+
+1   5   2   6   
+=   =   o   o   
+1   5   5   0.5 
+
+Result 
+Distance = 2
+Correspondance 
+
+1   5   4   2   
+=   =   o   o   
+1   5   5   0.5 
+
+

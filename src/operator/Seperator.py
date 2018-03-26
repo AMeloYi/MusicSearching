@@ -12,6 +12,18 @@ class Seperator:
     '''
 
     def SeperateByPart(self, inputStream):
+        '''Seperate the input stream by parts
+
+        This function can seperate the music input stream into different
+        parts.
+
+        Args:
+            inputStream: a music21.stream instance
+
+        Returns:
+            1. Nomber of the parts the music contains
+            2. A list of music21.stream seperated by different parts
+        '''
         list = []
         for i in range(len(inputStream.parts)):
             nStream = inputStream.parts[i]
@@ -19,6 +31,19 @@ class Seperator:
         return len(inputStream.parts), list
 
     def SeperateByMeasure(self, inputStream):
+        '''Seperate the input stream by measures
+
+        This function can seperate the music input stream into different
+        measures. The music input stream should be seperated into parts.
+
+        Args:
+            inputStream: a music21.stream instance contains only one part
+
+        Returns:
+            1. Nomber of the measures seperated
+            2. A list who contains the lists of music21.Note seperated by 
+            different measures
+        '''
         nstream = inputStream.recurse().notesAndRests.stream()
         list = []
         for n in nstream:
@@ -29,12 +54,26 @@ class Seperator:
         return len(list), list
 
     def SeperateByNMeasure(self, inputStream, N):
+        '''Seperate the input stream by N measures
+
+        This function can seperate the music input stream into several
+        measures. The music input stream should be seperated into parts.
+
+        Args:
+            inputStream: a music21.stream instance contains only one part
+            N: The number of measures user wants to seperate in a group
+
+        Returns:
+            1. Nomber of the measures seperated
+            2. A list contains the lists of music21.Note seperated by 
+            different N measures
+        '''
         nstream = inputStream.recurse().notesAndRests.stream()
         lengthMeasure = 0
         list = []
         for n in nstream:
-            if (n.measureNumber + 1 > lengthMeasure):
-                lengthMeasure = n.measureNumber + 1
+            if (n.measureNumber > lengthMeasure):
+                lengthMeasure = n.measureNumber
         for i in range(lengthMeasure - N + 1):
             list.append([])
         for n in nstream:
@@ -42,10 +81,26 @@ class Seperator:
                 index = n.measureNumber - i - 1
                 if(index >= 0) & (index < len(list)):
                     list[index].append(n)
-        return lengthMeasure, list
+        return len(list), list
 
     def SeperateByMorceau(self, inputStream, voix, meausreList):
-        nstream = inputStream.recurse().notesAndRests.stream()
+        '''Seperate the input stream by specified measures
+
+        This function can seperate the music input stream into specified
+        measures.
+
+        Args:
+            inputStream: a music21.stream instance contains all the music;
+            voix: the part where exists the specified measures;
+            measureList: the list of measure number user wants to seperate.
+            It is recommended that the measures should be continuous.
+
+
+        Returns:
+            A list of music21.Note
+        '''
+        nbParts, parts = self.SeperateByPart(inputStream)
+        nstream = parts[voix - 1].recurse().notesAndRests.stream()
         morceau = []
         print(meausreList)
         for n in nstream:

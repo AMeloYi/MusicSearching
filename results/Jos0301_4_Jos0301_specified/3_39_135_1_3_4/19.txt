@@ -1,0 +1,73 @@
+Result 
+Distance = 4
+Correspondance 
+
+3  -1 -1 12 
++  +  o  o  
+      10 1  
+
+Result 
+Distance = 4
+Correspondance 
+
+3  -1 -1 12 
++  +  o  o  
+      10 1  
+
+Result 
+Distance = 4
+Correspondance 
+
+3  -1 -1 4  
++  +  o  o  
+      10 1  
+
+Result 
+Distance = 4
+Correspondance 
+
+3  3  9  8  
++  +  o  o  
+      10 1  
+
+Result 
+Distance = 4
+Correspondance 
+
+3  4  0  6  
++  +  o  o  
+      10 1  
+
+Result 
+Distance = 2
+Correspondance 
+
+3  3  10 1  
++  +  =  =  
+      10 1  
+
+Result 
+Distance = 3
+Correspondance 
+
+3  3  9  1  
++  +  o  =  
+      10 1  
+
+Result 
+Distance = 4
+Correspondance 
+
+3  3  7  2  
++  +  o  o  
+      10 1  
+
+Result 
+Distance = 4
+Correspondance 
+
+3  3  9  2  
++  +  o  o  
+      10 1  
+
+

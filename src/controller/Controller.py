@@ -1,6 +1,5 @@
 import os
 import shutil
-import copy
 
 from src.operator import DistanceCalculator
 from src.operator import FileOperator
@@ -47,16 +46,16 @@ class Controller:
             this folder automatically.
         '''
         destFolder = os.path.splitext(os.path.split(srcFile)[1])[0]
-        dirpath = '..\\tmpData\\ref\\' + destFolder + '\\' + str(N)
+        dirpath = '..\\tmpData\\ref\\' + destFolder + '_' + str(N)
         if(os.path.exists(dirpath)):
             shutil.rmtree(dirpath)
         os.makedirs(dirpath)
         stream = self.fo.ReadFile(srcFile)
         nbParts, parts = self.sp.SeperateByPart(stream)
+        nbFile = 1
         for i in range(nbParts):
             voix = i + 1
             startMeasure = 1
-            nbFile = 1
             if (N == 1):
                 length, nList = self.sp.SeperateByMeasure(parts[i])
             elif(N > 1):
@@ -66,6 +65,8 @@ class Controller:
                 filename = dirpath + '\\' + str(voix) + '_' + str(startMeasure) + '_' + str(nbFile) + '.csv'
                 startMeasure += 1
                 nbFile += 1
+                if os.path.exists(filename):
+                    os.remove(filename)
                 self.fo.SaveNoteList(filename, noteList)
 
     def PreprocessWholeMusicFile(self, srcFile):
@@ -97,6 +98,7 @@ class Controller:
                 filename = dirpath + '\\ref.csv'
                 self.fo.SaveNoteList(filename, noteList)
 
+
     def PreprocessSpecifiedMusicFile(self, srcFile, voix, measureList):
         '''Preprocess of the specified part of the music file
 
@@ -117,20 +119,40 @@ class Controller:
         '''
         destFolder = os.path.splitext(os.path.split(srcFile)[1])[0]
         dirpath = '..\\tmpData\\ref\\' + destFolder + '_specified'
-        if(os.path.exists(dirpath)):
-            shutil.rmtree(dirpath)
-        os.makedirs(dirpath)
+        if(not os.path.exists(dirpath)):
+            os.makedirs(dirpath)
         stream = self.fo.ReadFile(srcFile)
-        nbParts, parts = self.sp.SeperateByPart(stream)
-        noteList = self.sp.SeperateByMorceau(parts[voix-1], voix, measureList)
+
+        noteList = self.sp.SeperateByMorceau(stream, voix, measureList)
         morceau = self.tl.TranslateToNoteList(noteList, voix)
         filename = dirpath + '\\' + str(voix) + '_' + str(measureList[0]) + '_' + str(len(measureList)) + '.csv'
+        if os.path.exists(filename):
+            os.remove(filename)
         self.fo.SaveNoteList(filename, morceau)
 
-    def CalculateDistanceBetweenTwoFolders(self, targetFolder, refFolder, resFolder, method):
+
+    def CalculateDistanceBetweenTwoFolders(self, targetFolder, refFolder, method):
+        '''Calculate distances between all the files in two folders
+
+        This function can calculate all the distances between the files in target 
+        folder and the files in reference folder.
+
+        Args:
+            srcFile: full path of the source file
+            destFolder: folder name to save the results
+            N: the number of measures user wants to seperate in a group
+
+        Returns:
+            This function has no return. All the results will be saved in a file in 
+            the folder entered by user. If the folder does not exist, il will create 
+            this folder automatically.
+        '''
+        resFolder = targetFolder + '_' + refFolder
         targetFolderPath = '..\\tmpData\\ref\\' + targetFolder
         refFolderPath = '..\\tmpData\\ref\\' + refFolder
         resFolderPath = '..\\results\\' + resFolder
+        if not os.path.exists(resFolderPath):
+            os.mkdir(resFolderPath)
         targetFileList = []
         refFileList = []
         for (targetRoot,targetDirs,targetFiles) in os.walk(targetFolderPath):
@@ -142,32 +164,36 @@ class Controller:
                 ref = os.path.join(refRoot, refFile)
                 refFileList.append(ref)
         for i in range(len(targetFileList)):
-            idTar = os.path.splitext(targetFileList[i])[0]
+            idTar = os.path.splitext(os.path.split(targetFileList[i])[1])[0]
             for j in range(len(refFileList)):
-                idRef = os.path.splitext(refFileList[j])[0]
-                res = '..\\results\\' + resFolder + '\\' + str(idTar) + '_' + str(idRef)
-                self.dc.Distance(targetFileList[i], refFileList[j], method, resFolderPath)
+                idRef = os.path.splitext(os.path.split(refFileList[j])[1])[0]
+                res = resFolderPath + '\\' + str(idTar) + '_' + str(idRef)
+                if not os.path.exists(res):
+                    os.mkdir(res)
+                self.dc.Distance(targetFileList[i], refFileList[j], method, res)
+
 
     def CalculateDistanceWithinFile(self, srcFile, method):
         srcFileName = os.path.splitext(os.path.split(srcFile)[1])[0]
-        self.PreprocessWholeMusicFile(srcFile, srcFileName)
+        self.PreprocessWholeMusicFile(srcFile)
         targetFolder = srcFileName + '_whole'
-        self.CalculateDistanceBetweenTwoFolders(targetFolder, targetFolder, srcFileName + '_' + srcFileName, method)
+        self.CalculateDistanceBetweenTwoFolders(targetFolder, targetFolder, method)
+
 
     def CalculateDistanceBetweenTwoFiles(self, srcFile, refFile, method):
         tarFileName = os.path.splitext(os.path.split(srcFile)[1])[0]
         refFileName = os.path.splitext(os.path.split(refFile)[1])[0]
-        self.PreprocessWholeMusicFile(srcFile, tarFileName)
-        self.PreprocessWholeMusicFile(refFile, refFileName)
+        self.PreprocessWholeMusicFile(srcFile)
+        self.PreprocessWholeMusicFile(refFile)
         targetFolder = tarFileName + '_whole'
         refFolder = refFileName + '_whole'
-        self.CalculateDistanceBetweenTwoFolders(targetFolder, refFolder, tarFileName + '_' + refFileName, method)
+        self.CalculateDistanceBetweenTwoFolders(targetFolder, refFolder, method)
 
-    def AnalyseResults(self, resFolder):
+    def AnalyseResults(self, resPath):
         # targetFile, refFile = resFolder.split('_')
-        refPath = '..\\results\\' + resFolder
+        # resPath = '..\\results\\' + resFolder
         matrix_dis = []
-        for (root,dirs,files) in os.walk(refPath):
+        for (root,dirs,files) in os.walk(resPath):
             for file in files:
                 filePath = os.path.join(root, file)
                 filename = os.path.splitext(file)[0]
