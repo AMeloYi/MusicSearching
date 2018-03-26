@@ -2,8 +2,6 @@ import os
 
 from src.controller import Controller
 
-ABSPATH = os.path.abspath('.')
-
 if __name__ == '__main__':
     ctl = Controller.Controller()
     STOP = False
@@ -12,8 +10,10 @@ if __name__ == '__main__':
         print('-------- Choose the function --------')
         print('1.Create morceau ')
         print('2.Create whole morceau ')
-        print('3.Preprocess the muisic file')
-        print('4.Calculate the distance between file and morceau')
+        print('3.Preprocess the muisic file ')
+        print('4.Calculate the distance between file and morceau ')
+        print('5.Calculate the distances within one music ')
+        print('6.Calculate the distances between two files ')
         print('0.Exit')
         command = input('Please choose your fuction : ')
         print('you have choosed :', command)
@@ -46,5 +46,17 @@ if __name__ == '__main__':
             method = input('Please input the method : ')
             ctl.CalculateDistanceBetweenTwoFolders(targetFolder, refFolder, resFolder, method)
             print('Distance calculated!')
+        elif command == '5':
+            srcFile = input('Please input src file path : ')
+            method = input('Please input the method : ')
+            ctl.CalculateDistanceWithinFile(srcFile, method)
+        elif command == '6':
+            srcFile = input('Please input src file path : ')
+            refFile = input('Please input ref file path : ')
+            method = input('Please input the method : ')
+            ctl.CalculateDistanceBetweenTwoFiles(srcFile, refFile, method)
+        elif command == '7':
+            resFolder = input('Please input result folder name : ')
+            ctl.AnalyseResults(resFolder)
         elif command == '0':
             break

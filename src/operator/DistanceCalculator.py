@@ -2,6 +2,7 @@ import win32api
 
 class DistanceCalculator:
     '''Class for calculating the distance between two objects
+    
     Functions:
         Distance: Calculate the distance between two strings of vector
     '''
@@ -24,5 +25,6 @@ class DistanceCalculator:
             This function has no return. All the results will be saved in the files
             choosed by user.
         '''
-        param = '-sequences ' + target + ' ' + ref + ' -method ' + method + ' -result ' + result + '-type character -parser csv'
-        win32api.ShellExecute(0, 'open', 'MatchingToolBox.exe', param, '', 0)
+        param = '-sequences ' + target + ' ' + ref + ' -method ' + method + ' -result ' + result + ' -type numeric -parser csv'
+        print(param)
+        win32api.ShellExecute(0, 'open', '..\\ref\\MatchingToolBox.exe', param, '', 0)

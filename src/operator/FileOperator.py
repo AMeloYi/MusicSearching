@@ -2,8 +2,6 @@ import os
 from music21 import *
 from music21.exceptions21 import *
 
-ABSPATH = os.path.abspath('.')
-
 class FileOperator:
     '''Operators with files
     Functions:
@@ -106,6 +104,6 @@ class FileOperator:
         '''
         f = open(filename, 'a')
         for note in list:
-            string = str(note.voix) + ',' + str(note.gamme) + ',' +  str(note.valeur) + ',' + str(note.duree)
+            string = str(note.voix) + ',' + str(note.gamme) + ',' + str(note.valeur) + ',' + str(note.duree)
             f.write(string + '\n')
         f.close()
